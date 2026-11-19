@@ -9,6 +9,7 @@ Coding projects from my MSc in Financial Technology at Warwick Business School (
 | [RAG System for EU/UK Financial Regulation](regtech-rag/) | Retrieval-augmented generation over DORA, NIS2 and UK PS21/3, with hybrid search, article-level citations and benchmark evaluation (100% faithfulness and citation rate) | Python, LlamaIndex, ChromaDB, Gemini, Gradio |
 | [UK Gilt Market Analysis](uk-gilt-pca/) | PCA, spread decomposition and GARCH modelling testing the FT's "Britain's debt cage" claims about UK gilt yields | Python, PCA, GARCH |
 | [Taylor's Rule and Monetary Policy in Poland](taylor-rule-poland/) | Replication of Taylor (1993) and extension to the National Bank of Poland, 2004–2026, with interest-rate smoothing | Excel, OLS, Python (HP filter) |
+| [AlphaFilter – Warwick Fintech Hackathon](hackathon-alphafilter/) | Team hackathon project: AI market-intelligence dashboard with signal-decay sentiment, price/sentiment divergence alerts, SEC 10-K contagion scoring and multi-agent analysis | Python, FastAPI, PyTorch, FinBERT, Next.js |
 
 ## Class assignments
 
