@@ -19,3 +19,5 @@ Coding projects from my MSc in Financial Technology at Warwick Business School (
 ## About me
 
 I'm Ihor Stepura, a London-based graduate with an MSc in Financial Technology from Warwick Business School and a BSc in Information & Decision Sciences from the University of Illinois Chicago. I'm interested in roles that bring together finance, data and technology.
+
+[LinkedIn](https://www.linkedin.com/in/ihor-stepura/)
