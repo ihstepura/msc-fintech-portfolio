@@ -1,0 +1,6 @@
+panel,n_ctry,PC1_var%,all_pos_PC1,UK_PC1_load,UK_rank,UK_idio,avg_idio,UK_vs_avg
+ALL7,7,54.9,True,0.847,1/7,0.283,0.451,BELOW
+drop_JP,6,60.9,True,0.869,1/6,0.246,0.391,BELOW
+drop_JP_CA,5,62.0,True,0.852,1/5,0.273,0.38,BELOW
+core5,5,62.0,True,0.852,1/5,0.273,0.38,BELOW
+euro_anglo,4,67.7,True,0.794,4/4,0.369,0.323,ABOVE

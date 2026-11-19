@@ -1,0 +1,4 @@
+series,GARCH_AIC,GJR_AIC,AIC_favours,gamma,t(gamma),persist_GJR,half_life_d
+UK_10y,3234.8,3230.3,GJR,-0.0829,-1.81,0.961,17.3
+DE_10y,3031.8,3033.1,GARCH,-0.0367,-0.93,0.982,38.8
+US_10y,3260.3,3261.9,GARCH,0.0504,0.47,0.736,2.3

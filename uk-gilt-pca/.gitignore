@@ -1,0 +1,5 @@
+# Raw data (see data/README.md)
+notebooks/data/
+
+# Intermediate files rebuilt by notebook 1
+notebooks/*.csv
