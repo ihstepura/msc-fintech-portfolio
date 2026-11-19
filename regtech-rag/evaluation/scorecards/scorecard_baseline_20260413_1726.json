@@ -1,0 +1,192 @@
+{
+  "created_at": "2026-04-13T17:26:04.834660",
+  "pipeline": "baseline_v1",
+  "retrieval": {
+    "n_questions": 27,
+    "source_hit_rate": 0.852,
+    "article_hit_rate": 0.852,
+    "mrr": 0.5,
+    "avg_precision_at5": 0.511,
+    "by_type": {
+      "factual": {
+        "n": 5,
+        "src_hit": 1.0,
+        "art_hit": 0.6,
+        "mrr": 0.5
+      },
+      "obligation": {
+        "n": 5,
+        "src_hit": 0.8,
+        "art_hit": 0.8,
+        "mrr": 0.517
+      },
+      "applicability": {
+        "n": 5,
+        "src_hit": 0.8,
+        "art_hit": 0.8,
+        "mrr": 0.55
+      },
+      "cross_level": {
+        "n": 4,
+        "src_hit": 1.0,
+        "art_hit": 1.0,
+        "mrr": 0.542
+      },
+      "cross_reference": {
+        "n": 3,
+        "src_hit": 1.0,
+        "art_hit": 1.0,
+        "mrr": 0.556
+      },
+      "adversarial": {
+        "n": 5,
+        "src_hit": 0.6,
+        "art_hit": 1.0,
+        "mrr": 0.367
+      }
+    }
+  },
+  "generation": {
+    "n_questions": 10,
+    "faithfulness_rate": 0.9,
+    "faithfulness_avg": 0.9,
+    "relevancy_rate": 0.9,
+    "relevancy_avg": 0.9,
+    "citation_rate": 0.9,
+    "obligation_rate": 0.8,
+    "hallucination_guard": 0,
+    "avg_latency_s": 1.85
+  },
+  "individual_results": [
+    {
+      "question": "What are the reporting timelines for a major ICT-related incident?",
+      "type": "factual",
+      "is_negative": false,
+      "has_citation": true,
+      "has_obligation": false,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0,
+      "latency_s": 1.28
+    },
+    {
+      "question": "What information must be included in the initial notification of a major ICT incident?",
+      "type": "factual",
+      "is_negative": false,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0,
+      "latency_s": 1.02
+    },
+    {
+      "question": "Is threat-led penetration testing mandatory for all financial entities?",
+      "type": "obligation",
+      "is_negative": false,
+      "has_citation": false,
+      "has_obligation": false,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": false,
+      "rel_score": 0,
+      "latency_s": 0.63
+    },
+    {
+      "question": "Must financial entities always notify customers about major ICT incidents?",
+      "type": "obligation",
+      "is_negative": false,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0,
+      "latency_s": 1.26
+    },
+    {
+      "question": "Does DORA apply to small non-interconnected investment firms?",
+      "type": "applicability",
+      "is_negative": false,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0,
+      "latency_s": 2.91
+    },
+    {
+      "question": "What DORA obligations apply to crypto-asset service providers?",
+      "type": "applicability",
+      "is_negative": false,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0,
+      "latency_s": 2.08
+    },
+    {
+      "question": "How does the RTS on ICT incident classification specify the criteria in the main regulation?",
+      "type": "cross_level",
+      "is_negative": false,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0,
+      "latency_s": 1.71
+    },
+    {
+      "question": "What additional detail does the RTS on subcontracting provide beyond Article 28?",
+      "type": "cross_level",
+      "is_negative": false,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": false,
+      "faith_score": 0,
+      "relevant": true,
+      "rel_score": 1.0,
+      "latency_s": 1.7
+    },
+    {
+      "question": "What contractual provisions must be included in ICT third-party contracts under Article 30?",
+      "type": "cross_reference",
+      "is_negative": false,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0,
+      "latency_s": 3.12
+    },
+    {
+      "question": "How do Articles 19 and 20 relate to each other in the incident reporting process?",
+      "type": "cross_reference",
+      "is_negative": false,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0,
+      "latency_s": 2.83
+    }
+  ]
+}

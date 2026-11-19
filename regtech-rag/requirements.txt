@@ -1,0 +1,16 @@
+gradio
+llama-index
+llama-index-llms-google-genai
+llama-index-llms-groq
+llama-index-embeddings-huggingface
+llama-index-vector-stores-chroma
+llama-index-retrievers-bm25
+chromadb
+sentence-transformers
+torch
+rank-bm25
+PyStemmer
+google-generativeai
+pdfplumber
+requests
+nest_asyncio

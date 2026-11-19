@@ -1,0 +1,10 @@
+# Secrets
+.env
+
+# Generated data (rebuild by running the notebooks)
+dora_rag/
+dora_docs/
+dora_cleaned/
+dora_chunks/
+dora_chroma_db/
+*.sqlite3

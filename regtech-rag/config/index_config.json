@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-04-19T19:38:26.560343",
+  "embed_model": "BAAI/bge-large-en-v1.5",
+  "embed_dimension": 1024,
+  "embed_batch_size": 16,
+  "similarity_metric": "cosine",
+  "device": "cpu",
+  "chroma_dir": "dora_rag/dora_chroma_db",
+  "chroma_collection": "dora_regulation",
+  "total_vectors": 798,
+  "source_chunks_file": "dora_rag/dora_chunks/all_chunks.json",
+  "corpus_regulations": {
+    "dora": 381,
+    "nis2": 179,
+    "ps21_3": 119,
+    "cross_reg": 119
+  },
+  "corpus_jurisdictions": {
+    "eu": 615,
+    "uk": 183
+  },
+  "corpus_levels": {
+    "1": 276,
+    "2": 440,
+    "3": 82
+  },
+  "doc_types_indexed": {
+    "regulation": 114,
+    "directive": 141,
+    "RTS": 133,
+    "ITS": 94,
+    "delegated_regulation": 14,
+    "guideline": 19,
+    "statement": 3,
+    "implementing_regulation": 37,
+    "guidance": 42,
+    "policy_statement": 85,
+    "supervisory_statement": 16,
+    "discussion_paper": 57,
+    "Q_and_A": 43
+  },
+  "notes": "Multi-regulation corpus: DORA (EU) + NIS2 (EU) + PS21/3 (UK) + cross-regulation documents. BGE models require query_instruction prefix at retrieval time. topic_tags and entity_scope stored as pipe-separated strings. Filter fields: regulation, jurisdiction, level, doc_type, source_doc, article_num, section_ref."
+}

@@ -1,0 +1,202 @@
+{
+  "created_at": "2026-04-15T14:37:12.600167",
+  "pipeline": "baseline_v1",
+  "retrieval": {
+    "n_questions": 27,
+    "source_hit_rate": 0.926,
+    "article_hit_rate": 0.926,
+    "mrr": 0.542,
+    "avg_precision_at5": 0.556,
+    "by_type": {
+      "factual": {
+        "n": 5,
+        "src_hit": 1.0,
+        "art_hit": 0.6,
+        "mrr": 0.5
+      },
+      "obligation": {
+        "n": 5,
+        "src_hit": 1.0,
+        "art_hit": 1.0,
+        "mrr": 0.717
+      },
+      "applicability": {
+        "n": 5,
+        "src_hit": 1.0,
+        "art_hit": 1.0,
+        "mrr": 0.75
+      },
+      "cross_level": {
+        "n": 4,
+        "src_hit": 1.0,
+        "art_hit": 1.0,
+        "mrr": 0.542
+      },
+      "cross_reference": {
+        "n": 3,
+        "src_hit": 1.0,
+        "art_hit": 1.0,
+        "mrr": 0.556
+      },
+      "adversarial": {
+        "n": 5,
+        "src_hit": 0.6,
+        "art_hit": 1.0,
+        "mrr": 0.192
+      }
+    }
+  },
+  "generation": {
+    "n_questions": 10,
+    "faithfulness_rate": 0.889,
+    "faithfulness_avg": 0.89,
+    "relevancy_rate": 1.0,
+    "relevancy_avg": 1.0,
+    "citation_rate": 0.9,
+    "obligation_rate": 0.9,
+    "hallucination_guard": 1.0,
+    "avg_latency_s": 9.49
+  },
+  "individual_results": [
+    {
+      "question": "What does DORA say about GDPR data subject access requests?",
+      "type": "negative",
+      "is_negative": true,
+      "scope": "Full corpus (hybrid)",
+      "latency_s": 1.09,
+      "has_citation": false,
+      "has_obligation": false,
+      "hallucination_guard": true,
+      "faithful": false,
+      "faith_score": 0,
+      "relevant": true,
+      "rel_score": 1.0
+    },
+    {
+      "question": "What are the reporting timelines for a major ICT-related incident?",
+      "type": "factual",
+      "is_negative": false,
+      "scope": "Full corpus (hybrid)",
+      "latency_s": 9.29,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": null,
+      "faith_score": 0.0,
+      "relevant": null,
+      "rel_score": 0.0
+    },
+    {
+      "question": "What information must be included in the initial notification of a major ICT incident?",
+      "type": "factual",
+      "is_negative": false,
+      "scope": "Level 1 (main regulation)",
+      "latency_s": 1.18,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0
+    },
+    {
+      "question": "Is threat-led penetration testing mandatory for all financial entities?",
+      "type": "obligation",
+      "is_negative": false,
+      "scope": "RTS only (TLPT)",
+      "latency_s": 1.25,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0
+    },
+    {
+      "question": "Must financial entities always notify customers about major ICT incidents?",
+      "type": "obligation",
+      "is_negative": false,
+      "scope": "Full corpus (hybrid)",
+      "latency_s": 20.61,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0
+    },
+    {
+      "question": "Does DORA apply to small non-interconnected investment firms?",
+      "type": "applicability",
+      "is_negative": false,
+      "scope": "Full corpus (hybrid)",
+      "latency_s": 1.94,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0
+    },
+    {
+      "question": "What DORA obligations apply to crypto-asset service providers?",
+      "type": "applicability",
+      "is_negative": false,
+      "scope": "Full corpus (hybrid)",
+      "latency_s": 25.29,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0
+    },
+    {
+      "question": "How does the RTS on ICT incident classification specify the criteria in the main regulation?",
+      "type": "cross_level",
+      "is_negative": false,
+      "scope": "Level 2 (RTS/ITS)",
+      "latency_s": 8.72,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0
+    },
+    {
+      "question": "What additional detail does the RTS on subcontracting provide beyond Article 28?",
+      "type": "cross_level",
+      "is_negative": false,
+      "scope": "Level 2 (RTS/ITS)",
+      "latency_s": 1.56,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0
+    },
+    {
+      "question": "What contractual provisions must be included in ICT third-party contracts under Article 30?",
+      "type": "cross_reference",
+      "is_negative": false,
+      "scope": "Level 1 (main regulation)",
+      "latency_s": 23.98,
+      "has_citation": true,
+      "has_obligation": true,
+      "hallucination_guard": true,
+      "faithful": true,
+      "faith_score": 1.0,
+      "relevant": true,
+      "rel_score": 1.0
+    }
+  ]
+}

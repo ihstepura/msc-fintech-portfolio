@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-04-20T18:17:05.094900",
+  "pipeline": "multi_regulation_v1",
+  "llm": "models/gemini-flash-latest",
+  "corpus": {
+    "dora": 381,
+    "nis2": 179,
+    "ps21_3": 119,
+    "cross_reg": 119
+  },
+  "retrieval": {
+    "dora": {
+      "n_questions": 27,
+      "source_hit_rate": 0.926,
+      "article_hit_rate": 0.889,
+      "mrr": 0.59,
+      "avg_precision_at5": 0.481
+    },
+    "nis2": {
+      "n_questions": 12,
+      "source_hit_rate": 0.917,
+      "article_hit_rate": 0.833,
+      "mrr": 0.861,
+      "avg_precision_at5": 0.717
+    },
+    "ps21_3": {
+      "n_questions": 11,
+      "source_hit_rate": 1.0,
+      "article_hit_rate": 1.0,
+      "mrr": 0.874,
+      "avg_precision_at5": 0.709
+    }
+  },
+  "generation": {
+    "n_questions": 10,
+    "faithfulness_rate": 1.0,
+    "relevancy_rate": 1.0,
+    "citation_rate": 0.9,
+    "obligation_rate": 0.9,
+    "hallucination_guard": 1.0,
+    "avg_latency_s": 9.49,
+    "by_regulation": {
+      "dora": {},
+      "nis2": {},
+      "ps21_3": {}
+    }
+  }
+}
